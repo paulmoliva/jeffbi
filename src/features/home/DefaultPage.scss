@@ -1,0 +1,27 @@
+@import '../../styles/mixins.scss';
+
+.intro-body {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  .profile-container {
+    .jeff-pic {
+      border: 1px solid darkgrey;
+    }
+    p {
+      margin-top: 1px;
+    }
+  }
+
+  .intro-text {
+    margin-left: 40px;
+    p {
+      margin-bottom: 15px;
+    }
+  }
+  p {
+    color: whitesmoke;
+  }
+}

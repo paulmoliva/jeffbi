@@ -1,0 +1,38 @@
+@import '../../styles/mixins.scss';
+@import './SimpleNav.scss';
+@import './PageNotFound.scss';
+
+body {
+  background-color: black;
+  padding: 20px;
+}
+
+.home-default-page {
+  line-height: 160%;
+  position: relative;
+  border: 2px solid whitesmoke;
+  min-height: 700px;
+  min-width: 800px;
+  background-color: #00579D;
+}
+
+#header {
+  #header-top {
+    MARGIN-BOTTOM: 0px;
+    HEIGHT: 81px;
+    background: linear-gradient(to right, white, rgb(204, 232, 255), rgb(0, 87, 157));
+    font-family: 'Slabo 27px', serif;
+    color: #00579D;
+    h1 {
+      padding: 28px;
+    }
+  }
+  .logo{
+    PADDING-RIGHT: 7px;
+    WIDTH: 255px;
+    BACKGROUND: url(https://www.muni.org/PublishingImages/anc_logo_60pxH.png) no-repeat left center;
+    FLOAT: left;
+    HEIGHT: 81px;
+    margin-right: 36px;
+  }
+}
